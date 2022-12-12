@@ -11,6 +11,9 @@ public class Category {
     private Long id;
     private String name;
 
+    @OneToMany
+    private List<Post> posts;
+
     public Category() {
         super();
     }
@@ -28,10 +31,10 @@ public class Category {
     }
 
     public List<Post> getPosts() {
-        return null;
+        return posts;
     }
 
     public void addPost(Post post) {
-        return;
+        posts.add(post);
     }
 }
