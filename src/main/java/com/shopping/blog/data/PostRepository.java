@@ -1,8 +1,9 @@
-package com.pluralsight.blog.data;
+package com.shopping.blog.data;
 
-import com.pluralsight.blog.model.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Component;
+
+import com.shopping.blog.model.Post;
 
 import java.util.*;
 

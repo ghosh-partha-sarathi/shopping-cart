@@ -1,4 +1,4 @@
-package com.pluralsight.blog.TestFilter;
+package com.shopping.blog.TestFilter;
 
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;

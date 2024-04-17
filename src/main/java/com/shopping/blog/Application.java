@@ -1,14 +1,13 @@
-package com.pluralsight.blog;
+package com.shopping.blog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-public class BlogApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlogApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }

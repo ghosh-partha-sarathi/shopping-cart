@@ -1,9 +1,10 @@
-package com.pluralsight.blog.data;
+package com.shopping.blog.data;
 
-import com.pluralsight.blog.model.Category;
-import com.pluralsight.blog.model.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Component;
+
+import com.shopping.blog.model.Category;
+import com.shopping.blog.model.Post;
 
 import java.util.List;
 import java.util.Optional;
@@ -20,5 +21,5 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
         return null;
     }
 
-    List<Post> findByCategory(Category category);
+    /* List<Post> findByCategory(Category category); */
 }

@@ -1,4 +1,4 @@
-package com.pluralsight.blog.model;
+package com.shopping.blog.model;
 
 import javax.persistence.*;
 import java.text.DateFormat;
