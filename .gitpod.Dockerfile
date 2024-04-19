@@ -22,3 +22,12 @@ RUN sudo tar -xvf apache-maven-3.9.6-bin.tar.gz --directory /opt/
 RUN echo 'export M2_HOME=/opt/apache-maven-3.9.6' >> /home/gitpod/.bashrc
 
 RUN echo 'export PATH=/opt/apache-maven-3.9.6/bin:$PATH' >> /home/gitpod/.bashrc
+
+# installing node
+RUN cd ~
+
+RUN sudo curl -sL https://deb.nodesource.com/setup_21.x -o nodesource_setup.sh
+
+RUN sudo bash nodesource_setup.sh
+
+RUN sudo apt install nodejs
