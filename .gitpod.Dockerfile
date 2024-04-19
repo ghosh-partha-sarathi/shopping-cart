@@ -21,4 +21,4 @@ RUN sudo tar -xvf apache-maven-3.9.6-bin.tar.gz --directory /opt/
 
 RUN echo 'export M2_HOME=/opt/apache-maven-3.9.6' >> /home/gitpod/.bashrc
 
-RUN echo 'export PATH=$M2_HOME/bin:$PATH' >> /home/gitpod/.bashrc
+RUN echo 'export PATH=/opt/apache-maven-3.9.6/bin:$PATH' >> /home/gitpod/.bashrc
